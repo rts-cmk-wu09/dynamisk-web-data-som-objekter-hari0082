@@ -25,18 +25,19 @@ let secondPerson = {
     firstname: "Frank",
     lastname: "Hvam",
     married: true,
-    age: 54, 
+    age: 55, 
     hometown: "København", 
-    hobbies: ["Reptiler", "Capser", "Klovne"],
+    hobbies: ["Kone", "Casper", "Klovn"],
     pets: {
-      type: "Klapperslange", 
-      name: "Mia"
+      type: "Hund", 
+      name: "Muffi"
     },
 }
-
-
-
-secondPerson.pets.forEach(function(pet) {
-    
-    
+ //Det her et mit loop for mit array inde i mit objekt.
+secondPerson.hobbies.forEach(hobby => {
+    console.log(hobby)
 })
+
+// nestede objekt. 
+console.log(secondPerson.pets.type)
+console.log(secondPerson.pets.name)
