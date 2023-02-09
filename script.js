@@ -14,10 +14,10 @@ console.log(person.age) /* dot notation */
 console.log(person.city) /* dot notation */
 console.log(person.status) /* dot notation */
 
-console.log(person["name"]) /* brackets natation */
-console.log(person["age"]) /* brackets natation */
-console.log(person["city"]) /* brackets natation */
-console.log(person["status"]) /* brackets natation */
+console.log(person["name"]) /* brackets notation */
+console.log(person["age"]) /* brackets notation */
+console.log(person["city"]) /* brackets notation */
+console.log(person["status"]) /* brackets notation */
 
 //opgave 2:
 
@@ -41,3 +41,6 @@ secondPerson.hobbies.forEach(hobby => {
 // nestede objekt. 
 console.log(secondPerson.pets.type)
 console.log(secondPerson.pets.name)
+
+
+//Opgave 3:
