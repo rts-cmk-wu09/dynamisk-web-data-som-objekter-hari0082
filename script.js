@@ -44,3 +44,17 @@ console.log(secondPerson.pets.name)
 
 
 //Opgave 3:
+
+/* ikke påbegyndt */
+
+//Træning i tempreal litterreal
+
+document.querySelector('#person').innerHTML = `
+    <h1>Info: </h1>
+    <p> Navn: ${secondPerson.firstname} </p>
+    <p> Efternavn: ${secondPerson.lastname} </p>
+    <br>
+    <p> Kæledyr: ${secondPerson.pets.type} </p>
+    <p> Navn: ${secondPerson.pets.name} </p>
+
+    `
